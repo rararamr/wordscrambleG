@@ -1,15 +1,15 @@
-const words = ["javascript", "html", "css", "python", "java", "ruby", "php", "swift", "typescript", "csharp"];
+const words = ["duck", "pencil", "book", "bird", "ball", "hat", "dog", "crayons", "cat", "hotdog"];
 const hints = {
-    "javascript": "This language is often used for web development, and it is supported by all modern web browsers.",
-    "html": "This language provides the structure for web pages.",
-    "css": "This language is used to style the HTML elements on a web page.",
-    "python": "This language is known for its simplicity and readability, making it a popular choice for beginners.",
-    "java": "This language is widely used for developing mobile apps, web apps, and large-scale enterprise applications.",
-    "ruby": "This language is known for its elegant syntax and productivity-oriented features.",
-    "php": "This language is widely used for server-side web development.",
-    "swift": "This language is developed by Apple and is used for building apps for iOS, macOS, watchOS, and tvOS.",
-    "typescript": "This language is a superset of JavaScript and adds optional static typing.",
-    "csharp": "This language is developed by Microsoft and is commonly used for building Windows applications and game development."
+    "duck": "Its an animal that quacks and swims in water.",
+    "pencil": "You use it to write and draw.",
+    "book": "bunch of pages that you can read to learn new things",
+    "bird": "animal that has feathers, wings, and usually flies in the sky.",
+    "ball": "A round object used in sports and games.",
+    "hat": "You wear it on your head to keep the sun out.",
+    "dog": "A furry friend who loves to play fetch.",
+    "crayons": "Something you use to color on paper.",
+    "cat": "A fluffy animal that says meow.",
+    "hotdog": "You eat it with ketchup and mustard between two pieces of bread."
 };
 let currentWord, scrambledWord, lives, timerInterval, timeLeft, score = 0; // Include only necessary variables
 let isTimerRunning = false; // Track if the timer is running
